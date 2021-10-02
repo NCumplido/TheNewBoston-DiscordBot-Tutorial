@@ -30,7 +30,7 @@ async def help(ctx):
     embed.add_field(
         name='!greet',
         value='Greet multiple people',
-        inline=False
+        inline=True
     )
 
     await ctx.send(embed=embed)
