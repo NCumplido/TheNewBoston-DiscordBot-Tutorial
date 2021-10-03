@@ -6,14 +6,22 @@ client = discord.Client()
 async def on_ready():
     print('Bot is online and ready')
 
+greetings_array = ['Hello', 'hello', 'Hi', 'hi', 'Yo', 'yo', 'Hey', 'hey']
+jack_array = ['Jack Sparrow', 'Jack sparrow', 'jack sparrow', 'jack Sparrow']
+
 @client.event
 async def on_message(message):
 
     if message.author == client.user:
         return
 
-    greetings = ['Hello', 'hello', 'Hi', 'hi', 'Yo', 'yo']
-    if message.content in greetings:
+    message_content = message.content
+
+    if message_content in greetings_array:
         await message.channel.send('Welcome!')
+
+    elif message_content in jack_array:
+        str_captain = 'Captain'
+        await message.channel.send(f'{str_captain} {message_content}')
 
 client.run('ODkxNjE0NDE5OTU4Nzg0MDEz.YVA6ow.LlH0EVj-0jsPZSTdg0_Sz2_7qGM')
