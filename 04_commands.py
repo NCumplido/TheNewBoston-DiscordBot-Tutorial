@@ -37,4 +37,4 @@ async def greet(ctx, *args):
     await ctx.send(f'Greeted {everyone}')
 
 
-bot.run('ODkxNjE0NDE5OTU4Nzg0MDEz.YVA6ow.LlH0EVj-0jsPZSTdg0_Sz2_7qGM')
+bot.run(Remove Key)
