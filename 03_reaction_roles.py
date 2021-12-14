@@ -3,7 +3,7 @@ import discord
 @client.event
 async def on_ready():
     print('Running')
-client.run('ODkxNjE0NDE5OTU4Nzg0MDEz.YVA6ow.LlH0EVj-0jsPZSTdg0_Sz2_7qGM')
+client.run('Remove Key')
 """
 
 class TutorialClient(discord.Client):
