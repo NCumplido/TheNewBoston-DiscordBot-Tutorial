@@ -24,4 +24,4 @@ async def on_message(message):
         str_captain = 'Captain'
         await message.channel.send(f'{str_captain} {message_content}')
 
-client.run('ODkxNjE0NDE5OTU4Nzg0MDEz.YVA6ow.LlH0EVj-0jsPZSTdg0_Sz2_7qGM')
+client.run('KEY')
