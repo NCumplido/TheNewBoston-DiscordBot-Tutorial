@@ -58,6 +58,6 @@ intents = discord.Intents.default()
 intents.members = True
 
 client = TutorialClient(intents=intents)
-client.run('ODkxNjE0NDE5OTU4Nzg0MDEz.YVA6ow.LlH0EVj-0jsPZSTdg0_Sz2_7qGM')
+client.run(Remove Key')
 
 #https://discord.com/channels/891613784953749546/891613785398313010/891700351076544573
